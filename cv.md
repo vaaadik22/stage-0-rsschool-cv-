@@ -69,4 +69,4 @@ __I have little experience in HTML5,CSS3, JavaScript__ (Layout of landing pages 
 * __Russian__(Native speaker)
 * __Belarusian__(Intermediate)
 * __Ukrainian__(A2)
-* __English__(A1/A2 Studying on corses Linguale,and I use Google Translate)
+* __English__(A2 Studying on corses Linguale,and I use Google Translate)
