@@ -4,7 +4,7 @@
 
 * __Address__: Tukhachevsky St. Minsk, Belarus
 * __Phone:__ +375 259842632
-* __Email:__ vaaadik22@gmail.com
+* __Email:__ [vaaadik22@gmail.com](vaaadik22@gmail.com)
 * __Linkedin:__ [Vadim Glinsky](https://www.linkedin.com/feed/)
 * __GitHub:__ [vaaadik22](https://github.com/vaaadik22)
 
