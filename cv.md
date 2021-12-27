@@ -54,7 +54,7 @@ alert('Correct answer:' + answer);
 
 __I have little experience in HTML5,CSS3, JavaScript__ (Layout of landing pages and solving simple tasks in JS)
 
-# Education and courses:
+# Education and courses
 
 * __Vocational technikal schools Minsk,Belarus__
     * Programmed machine operator
