@@ -1,2 +1,2 @@
 
-https://vaaadik22.github.io/rsschool-cv/index.html/
+https://vaaadik22.github.io/rsschool-cv/
