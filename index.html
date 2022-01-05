@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -37,21 +35,19 @@
 
     <main>
         <div class="container">
+            <div class="main-container">
 
-    
-                <div class="main-container">
-                    
-                    <div class="image">
-                        <img src="/rsschool-cv/avatar1.jpg" alt="avatar">
-                    </div>
-
+                <div class="image">
+                    <img src="/rsschool-cv/avatar1.jpg" alt="avatar">
                 </div>
+
+            </div>
 
 
             <section class="section">
 
                 <div class="section-name">
-                    <h1 class="h1">Vadim<br> Glinsky</h1>
+                    <h1 class="h1">Vadim Glinsky</h1>
                     <p class="paragraph">JUNIOR FRONT-END DEVELOPER</p>
                 </div>
 
@@ -60,17 +56,19 @@
 
             <section class="section">
                 <div class="section-inner">
-                    <div class="section-contacs">
-
+                    <div class="contacs">
                         <h2>Contats</h2>
                     </div>
 
                     <ul>
                         <li>Address: Tukhachevsky St. Minsk, Belarus</li>
                         <li>Email: vaaadik22@gmail.com</li>
-                        <li>Linkedin:<a href="https://www.linkedin.com/in/vadim-glinsky-25945720a/">Vadim Glinsky</a> </li>
-                        <li>GitHub: <a href="https://github.com/vaaadik22">Vaaadik22</a></li>
-                        <li>Telegram: <a href="https://web.telegram.org/z/#777000">@Vadim Glinsky</a></li>
+                        <li>Linkedin:<a href="https://www.linkedin.com/in/vadim-glinsky-25945720a/"
+                                class="linkedin">Vadim Glinsky</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/vaaadik22" class="github">Vaaadik22</a></li>
+                        <li>Telegram: <a href="https://web.telegram.org/z/#777000" class="telegram">@Vadim Glinsky</a>
+                        </li>
                     </ul>
 
                 </div>
@@ -79,8 +77,9 @@
 
             <section class="section">
                 <div class="section-title">
-
-                    <h2>Summary</h2>
+                    <div class="Summary">
+                        <h2>Summary</h2>
+                    </div>
                 </div>
 
                 <p> I'm a beginner Frontend developer. I like to learn something new, and
@@ -97,7 +96,7 @@
             <section class="section">
                 <div class="section-inner">
 
-                    <div class="section-education">
+                    <div class="education">
 
                         <h2>Education and Expirience</h2>
 
@@ -126,20 +125,19 @@
                     </ul>
 
                 </div>
-
             </section>
 
 
             <section class="section">
                 <div class="section-title">
-
-                    <h2>Code</h2>
-
+                    <div class="code-title">
+                        <h2>Code</h2>
+                    </div>
                 </div>
 
                 <code>
 
-                <p> var answer = parseInt(Math.random ()*10);<br>
+    <p class="code"> var answer = parseInt(Math.random ()*10);<br>
                     var userAnswer = +prompt('guess the number from 0 to 10');<br>
                     var maxTryCount = 3;<br>
 
@@ -171,10 +169,9 @@
 
 
 
-            <section class="section">
+            <section class="section" id="skills">
                 <div class="section-inner">
-
-                    <div class="section-skills">
+                    <div class="skills">
 
                         <h2>Skills</h2>
 
@@ -192,11 +189,7 @@
             </section>
 
 
-
-
-
-            <section class="section">
-
+            <section class="section" id="languages">
                 <div class="section-title">
 
                     <h2>Languages</h2>
@@ -213,10 +206,28 @@
         </div>
     </main>
 
+    <footer class="footer">
+        <div class="footer-git">
+            <a href="https://github.com/vaaadik22" class="footer_git-link">
+                <h3>My GitHub account</h3>
+                <p>https://github.com/vaaadik22</p>
+                <div class="footer_git-image">
+                    <img src="rsschool-cv/github-logo.png">
+                </div>
 
+            </a>
+        </div>
 
+        <div class="footer-time">
+            <p>Portfolio has been created <time class="footer_time-date">2022-01-05</time></p><br>
+            with <a href="https://rs.school/js/" class="footer__course-rs">Course «RS JavaScript/Front-end»</a>
+        </div>
+
+        <a href="https://rs.school/js/" class="footer-img">
+            <img src="rsschool-cv/RSschool-logo.png" alt="Logo of RS School" class="footer-logo">
+        </a>
+    </footer>
 
 </body>
-
 
 </html>
