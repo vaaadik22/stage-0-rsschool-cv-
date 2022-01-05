@@ -1,1 +1,231 @@
-# CV HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="container-inner">
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#Expirience" class="nav-link">Expirience</a></li>
+                    <li class="nav-item"><a href="#Aducation" class="nav-link">Aducation</a></li>
+                    <li class="nav-item"><a href="#Langveges" class="nav-link">Langveges</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="main-container">
+
+                <div class="image">
+                    <img src="avatar1.jpg" alt="avatar">
+                </div>
+
+            </div>
+
+
+            <section class="section">
+
+                <div class="section-name">
+                    <h1 class="h1">Vadim Glinsky</h1>
+                    <p class="paragraph">JUNIOR FRONT-END DEVELOPER</p>
+                </div>
+
+            </section>
+
+
+            <section class="section">
+                <div class="section-inner">
+                    <div class="contacs">
+                        <h2>Contats</h2>
+                    </div>
+
+                    <ul>
+                        <li>Address: Tukhachevsky St. Minsk, Belarus</li>
+                        <li>Email: vaaadik22@gmail.com</li>
+                        <li>Linkedin:<a href="https://www.linkedin.com/in/vadim-glinsky-25945720a/" class="linkedin">Vadim Glinsky</a>
+                        </li>
+                        <li>GitHub: <a href="https://github.com/vaaadik22" class="github">Vaaadik22</a></li>
+                        <li>Telegram: <a href="https://web.telegram.org/z/#777000" class="telegram">@Vadim Glinsky</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <section class="section">
+                <div class="section-title">
+                    <div class="Summary">
+                        <h2>Summary</h2>
+                    </div>
+                </div>
+
+                <p> I'm a beginner Frontend developer. I like to learn something new, and
+                    programming is exactly what I'm interested
+                    in, because you are constantly developing. I used to work on numerically controlled machines, so
+                    I have
+                    experience with programs. I believe
+                    that I will succeed. I am very sociable, I learn quickly, I can work in a team.</p>
+
+
+            </section>
+
+
+            <section class="section">
+                <div class="section-inner">
+
+                    <div class="education">
+
+                        <h2>Education and Expirience</h2>
+
+                    </div>
+
+                    <p>I have little experience in HTML5,CSS3, JavaScript <br>(Layout of landing pages and solving
+                        simple
+                        tasks in
+                        JS)</p>
+
+                    <ul>
+                        <li>Vocational technikal schools Minsk,Belarus
+                            <ul>
+                                <li>Machine operator</li>
+                            </ul>
+                        </li>
+                        <li>Minsk State Polytechnic College
+                            <ul>
+                                <li>Technician Technologist</li>
+                            </ul>
+                        </li>
+                        <li>CS50 video course on YouTube</li>
+                        <li>HTML5,CSS3,Git,Java Script video course on YouTube</li>
+                        <li>Java Script http://learn.JavaScript.ru/</li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <section class="section">
+                <div class="section-title">
+                    <div class="code-title">
+                        <h2>Code</h2>
+                    </div>
+                </div>
+
+                <code>
+
+    <p class="code"> var answer = parseInt(Math.random ()*10);<br>
+                    var userAnswer = +prompt('guess the number from 0 to 10');<br>
+                    var maxTryCount = 3;<br>
+
+                    for(var tryCount = 1; tryCount < maxTryCount; tryCount++){<br>
+
+                    if(userAnswer == answer){<br>
+                    alert("Congratulations, you guessed it");<br>
+                    } <br>
+
+                    else if(userAnswer > answer){<br>
+                    alert('You entered too large a number');<br>
+                    } <br>
+            
+                    else if(userAnswer < answer){<br>
+                    alert('You entered too little number'); <br> 
+                    }<br>
+
+                    userAnswer = +prompt('Try again, print a number from 0 to 10 \ n You have left' + (maxTryCount - tryCount) + 'attempts');<br>
+                    }<br>
+
+                    if(tryCount == maxTryCount)<br>
+                    alert('you lost');<br>
+
+                    alert('Correct answer:' + answer);
+                </p>
+
+                </code>
+            </section>
+
+
+
+            <section class="section" id="skills">
+                <div class="section-inner">
+                    <div class="skills">
+
+                        <h2>Skills</h2>
+
+                    </div>
+
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript (Fundamentals knowledge,in the process)</li>
+                        <li>Windows OS</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <section class="section" id="languages">
+                <div class="section-title">
+
+                    <h2>Languages</h2>
+                </div>
+
+                <ul>
+                    <li>Russian (Native speaker)</li>
+                    <li>Belarusian(Intermediate)</li>
+                    <li>Ukrainian(A2)</li>
+                    <li>English(A2 Studying on corses Linguale,and I use Google Translate)</li>
+                </ul>
+
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-git">
+            <a href="https://github.com/vaaadik22" class="footer_git-link">
+                <h3>My GitHub Account</h3>
+                <p>https://github.com/vaaadik22</p>
+                <div class="footer_git-image">
+                    <img src="github-logo.png">
+                </div>
+
+            </a>
+        </div>
+
+        <div class="footer-time">
+            <p>Portfolio has been created <time class="footer_time-date">2022-01-05</time></p><br>
+            with <a href="https://rs.school/js/" class="footer__course-rs">Course «RS JavaScript/Front-end»</a>
+        </div>
+
+        <a href="https://rs.school/js/" class="footer-img">
+            <img src="RSschool-logo.png" alt="Logo of RS School" class="footer-logo">
+        </a>
+    </footer>
+
+</body>
+
+</html>
