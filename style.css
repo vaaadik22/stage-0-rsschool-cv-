@@ -189,13 +189,13 @@
 
 
 .footer__course-rs{
-    
+
     text-decoration: none;
     color: yellow;
 }
 
 .code{
-
+    padding-left: 10px;
     background-color: rgb(216, 213, 213);
     
 }
